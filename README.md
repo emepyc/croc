@@ -12,7 +12,7 @@ use of serialized hypergeometric distribution tests in a sliding window approach
 ### Requirements
 
 CROC is written in Perl. So it should run in every OS with Perl. If you experience
-problems using it, please, send an email to <emepyc[AT]gmail.es>
+problems using it, please, send an email to emepyc[AT]gmail.es
 
 The code for hypergeometric distribution tests is written in C and loaded in the
 Perl script via the 'Inline::C' Perl module. If you encounter problems executing this
