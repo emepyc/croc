@@ -7,7 +7,7 @@ README about croc.pl
 CROC - Finding chromosomic clusters in genomes
 ==============================================================================
 
-CROC is a web based tool that aims to help in the identification and analysis
+CROC is a tool that aims to help in the identification and analysis
 of genomic gene clusters. This method has been successfully used before in the
 identification of chromosomal clusters in different eukaryotic species and make
 use of serialized hypergeometric distribution tests in a sliding window approach
