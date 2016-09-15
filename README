@@ -1,0 +1,62 @@
+******************************************************************************
+README about croc.pl
+******************************************************************************
+
+
+==============================================================================
+CROC - Finding chromosomic clusters in genomes
+==============================================================================
+
+CROC is a web based tool that aims to help in the identification and analysis
+of genomic gene clusters. This method has been successfully used before in the
+identification of chromosomal clusters in different eukaryotic species and make
+use of serialized hypergeometric distribution tests in a sliding window approach
+
+
+==============================================================================
+Requirements
+==============================================================================
+
+CROC is written in Perl. So it should run in every OS with Perl. If you experience
+problems using it, please, send an email to <pignatelli_mig[AT]gva.es>
+
+The code for hypergeometric distribution tests is written in C and loaded in the
+Perl script via the 'Inline::C' Perl module. If you encounter problems executing this
+software, you can use an "all Perl" version of this module with the "--allPerl"
+command line option when invoking the script.
+
+==============================================================================
+Installation
+==============================================================================
+
+Download the file croc-<VERSION>.tar.gz
+Unpack it and "cd" into the created directory
+Altenatively, you can make a soft link of the executable file (croc.pl) in a path directory.
+
+To view all available options type:
+$ ./croc.pl -h
+or
+$ perl croc.pl -h
+
+This distribution comes with already available genomes and samples to test the script in the
+"Species" and "Datasets" folders.
+
+
+===============================================================================
+Formats
+===============================================================================
+
++ Sample file: Should be a file containing a list of genes (1 per line).
++ Reference file: Should contain a first block of lines having the chromosome names and its length separated by a tab character.
+                   After that, a blank line.
+                   Finally, another block of lines describing the genomic features (f.e. genes). These lines must have the following fields separated by tabs:
+                   <ID> <Chr> <Start> <End> <Name>
+
+
+===============================================================================
+Bug report and feedback
+===============================================================================
+
+If you find any issue using this software, please, contact me at:
+pignatelli_mig[AT]gva.es
+

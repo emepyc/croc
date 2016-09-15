@@ -1,0 +1,4 @@
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/pignatelli/workspace/CROC-standAlone/lib/.Inline/lib/auto/hypergeom_bf98/hypergeom_bf98.so
+Installing /home/pignatelli/workspace/CROC-standAlone/lib/.Inline/lib/auto/hypergeom_bf98/hypergeom_bf98.bs
+Writing /home/pignatelli/workspace/CROC-standAlone/lib/.Inline/lib/auto/hypergeom_bf98/.packlist
